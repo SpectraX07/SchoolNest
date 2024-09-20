@@ -25,7 +25,7 @@
 ### Prerequisites
 
 <ul>
-    <li>PHP 7.3 or higher</li>
+    <li>PHP 8.2 or higher</li>
     <li>Composer</li>
     <li>MySQL or your preferred database</li>
     <li>A web server (Apache, Nginx, etc.)</li>
