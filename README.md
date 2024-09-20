@@ -1,92 +1,86 @@
-Your README is already well-structured for Markdown! Here's a formatted version with a couple of minor adjustments for clarity:
-
-```markdown
 # SkoolEase
 
-# SkoolEase
+<p style="text-align: justify;">
+    SkoolEase is a comprehensive school management SaaS platform built with CodeIgniter 4, designed to streamline administrative tasks and enhance the learning experience for students, teachers, and parents.
+</p>
 
-SkoolEase is a comprehensive school management SaaS platform built with CodeIgniter 4, designed to streamline administrative tasks and enhance the learning experience for students, teachers, and parents. 
-Featuring an integrated online exam portal, SkoolEase makes managing educational institutions more efficient and effective.
-
+<p style="text-align: justify;">
+    Featuring an integrated online exam portal, SkoolEase makes managing educational institutions more efficient and effective.
+</p>
 
 ## Features
 
-- **User-Friendly Dashboard**: An intuitive interface for easy navigation.
-- **Student Management**: Track student information, attendance, and performance.
-- **Course Management**: Create and manage courses, assignments, and resources.
-- **Online Exam Portal**: Conduct assessments seamlessly with customizable exam options.
-- **Real-Time Analytics**: Access performance insights to make informed decisions.
-- **Communication Tools**: Facilitate interaction between students, teachers, and parents.
-- **Role-Based Access**: Secure access for admins, teachers, students, and parents.
+<ul>
+    <li><strong>User-Friendly Dashboard</strong>: An intuitive interface for easy navigation.</li>
+    <li><strong>Student Management</strong>: Track student information, attendance, and performance.</li>
+    <li><strong>Course Management</strong>: Create and manage courses, assignments, and resources.</li>
+    <li><strong>Online Exam Portal</strong>: Conduct assessments seamlessly with customizable exam options.</li>
+    <li><strong>Real-Time Analytics</strong>: Access performance insights to make informed decisions.</li>
+    <li><strong>Communication Tools</strong>: Facilitate interaction between students, teachers, and parents.</li>
+    <li><strong>Role-Based Access</strong>: Secure access for admins, teachers, students, and parents.</li>
+</ul>
 
 ## Getting Started
 
 ### Prerequisites
 
-- PHP 7.3 or higher
-- Composer
-- MySQL or your preferred database
-- A web server (Apache, Nginx, etc.)
+<ul>
+    <li>PHP 7.3 or higher</li>
+    <li>Composer</li>
+    <li>MySQL or your preferred database</li>
+    <li>A web server (Apache, Nginx, etc.)</li>
+</ul>
 
 ### Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/skool-ease.git
-   cd skool-ease
-   ```
-
-2. Install dependencies using Composer:
-   ```bash
-   composer install
-   ```
-
-3. Set up your database connection in `app/Config/Database.php`.
-
-4. Run migrations to set up the database:
-   ```bash
-   php spark migrate
-   ```
-
-5. Start the built-in server (for development):
-   ```bash
-   php spark serve
-   ```
-
-6. Open your web browser and navigate to `http://localhost:8080`.
+<ol>
+    <li>Clone the repository:
+        <pre><code>git clone https://github.com/yourusername/skool-ease.git
+cd skool-ease</code></pre>
+    </li>
+    <li>Install dependencies using Composer:
+        <pre><code>composer install</code></pre>
+    </li>
+    <li>Set up your database connection in <code>app/Config/Database.php</code>.</li>
+    <li>Run migrations to set up the database:
+        <pre><code>php spark migrate</code></pre>
+    </li>
+    <li>Start the built-in server (for development):
+        <pre><code>php spark serve</code></pre>
+    </li>
+    <li>Open your web browser and navigate to <code>http://localhost:8080</code>.</li>
+</ol>
 
 ## Usage
 
-- Register as an admin, teacher, or student.
-- Create and manage courses and exams.
-- View analytics and reports.
+<ul>
+    <li>Register as an admin, teacher, or student.</li>
+    <li>Create and manage courses and exams.</li>
+    <li>View analytics and reports.</li>
+</ul>
 
 ## Contributing
 
-Contributions are welcome! Please fork the repo and submit a pull request with your improvements.
+<p>Contributions are welcome! Please fork the repo and submit a pull request with your improvements.</p>
 
-1. Fork the project.
-2. Create your feature branch:
-   ```bash
-   git checkout -b feature/YourFeature
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add some feature"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature/YourFeature
-   ```
-5. Open a pull request.
+<ol>
+    <li>Fork the project.</li>
+    <li>Create your feature branch:
+        <pre><code>git checkout -b feature/YourFeature</code></pre>
+    </li>
+    <li>Commit your changes:
+        <pre><code>git commit -m "Add some feature"</code></pre>
+    </li>
+    <li>Push to the branch:
+        <pre><code>git push origin feature/YourFeature</code></pre>
+    </li>
+    <li>Open a pull request.</li>
+</ol>
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+<p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
 
 ## Contact
 
-For questions or feedback, please reach out to [lancerf235@gmail.com].
-```
-
-Feel free to adjust any section as needed!
+<p>For questions or feedback, please reach out to <a href="mailto:lancerf235@gmail.com">lancerf235@gmail.com</a>.</p>
