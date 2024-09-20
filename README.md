@@ -3,7 +3,11 @@ Your README is already well-structured for Markdown! Here's a formatted version 
 ```markdown
 # SkoolEase
 
-SkoolEase is a comprehensive school management SaaS platform built with CodeIgniter 4, designed to streamline administrative tasks and enhance the learning experience for students, teachers, and parents. Featuring an integrated online exam portal, SkoolEase makes managing educational institutions more efficient and effective.
+# SkoolEase
+
+SkoolEase is a comprehensive school management SaaS platform built with CodeIgniter 4, designed to streamline administrative tasks and enhance the learning experience for students, teachers, and parents. 
+Featuring an integrated online exam portal, SkoolEase makes managing educational institutions more efficient and effective.
+
 
 ## Features
 
