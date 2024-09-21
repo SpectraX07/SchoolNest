@@ -1,23 +1,24 @@
-# SkoolEase
+# SchoolNest
 
 <p style="text-align: justify;">
-    SkoolEase is a comprehensive school management SaaS platform built with CodeIgniter 4, designed to streamline administrative tasks and enhance the learning experience for students, teachers, and parents.
+    SchoolNest is a powerful school management SaaS platform built with CodeIgniter 4. It is designed to simplify administrative tasks while enhancing the educational experience for students, teachers, and parents alike.
 </p>
 
 <p style="text-align: justify;">
-    Featuring an integrated online exam portal, SkoolEase makes managing educational institutions more efficient and effective.
+    SchoolNest integrates essential features like student management, course scheduling, and online exams, making it a versatile solution for schools, colleges, and other educational institutions.
 </p>
 
 ## Features
 
 <ul>
-    <li><strong>User-Friendly Dashboard</strong>: An intuitive interface for easy navigation.</li>
-    <li><strong>Student Management</strong>: Track student information, attendance, and performance.</li>
-    <li><strong>Course Management</strong>: Create and manage courses, assignments, and resources.</li>
-    <li><strong>Online Exam Portal</strong>: Conduct assessments seamlessly with customizable exam options.</li>
-    <li><strong>Real-Time Analytics</strong>: Access performance insights to make informed decisions.</li>
-    <li><strong>Communication Tools</strong>: Facilitate interaction between students, teachers, and parents.</li>
-    <li><strong>Role-Based Access</strong>: Secure access for admins, teachers, students, and parents.</li>
+    <li><strong>User-Friendly Dashboard</strong>: A clean, intuitive interface designed for efficient navigation and task management.</li>
+    <li><strong>Student Management</strong>: Easily track student profiles, attendance, grades, and progress.</li>
+    <li><strong>Course & Class Management</strong>: Create, organize, and manage courses, timetables, assignments, and resources with ease.</li>
+    <li><strong>Online Exam Portal</strong>: Conduct exams online with customizable settings, automatic grading, and results management.</li>
+    <li><strong>Real-Time Analytics</strong>: Generate detailed reports and performance analytics to support data-driven decision-making.</li>
+    <li><strong>Parent-Teacher Communication</strong>: Seamless communication tools to keep parents and teachers in touch regarding student performance.</li>
+    <li><strong>Role-Based Access Control</strong>: Secure access for different user roles—administrators, teachers, students, and parents.</li>
+    <li><strong>Notifications System</strong>: Send notifications about exams, grades, and important updates via email or SMS.</li>
 </ul>
 
 ## Getting Started
@@ -27,7 +28,7 @@
 <ul>
     <li>PHP 8.2 or higher</li>
     <li>Composer</li>
-    <li>MySQL or your preferred database</li>
+    <li>MySQL or any preferred database system</li>
     <li>A web server (Apache, Nginx, etc.)</li>
 </ul>
 
@@ -35,37 +36,38 @@
 
 <ol>
     <li>Clone the repository:
-        <pre><code>git clone https://github.com/yourusername/skool-ease.git
-cd skool-ease</code></pre>
+        <pre><code>git clone https://github.com/yourusername/schoolnest.git
+cd schoolnest</code></pre>
     </li>
-    <li>Install dependencies using Composer:
+    <li>Install the required dependencies using Composer:
         <pre><code>composer install</code></pre>
     </li>
-    <li>Set up your database connection in <code>app/Config/Database.php</code>.</li>
-    <li>Run migrations to set up the database:
+    <li>Configure your database connection in <code>app/Config/Database.php</code>.</li>
+    <li>Run database migrations to set up the necessary tables:
         <pre><code>php spark migrate</code></pre>
     </li>
-    <li>Start the built-in server (for development):
+    <li>Start the development server:
         <pre><code>php spark serve</code></pre>
     </li>
-    <li>Open your web browser and navigate to <code>http://localhost:8080</code>.</li>
+    <li>Open your browser and navigate to <code>http://localhost:8080</code>.</li>
 </ol>
 
 ## Usage
 
 <ul>
-    <li>Register as an admin, teacher, or student.</li>
-    <li>Create and manage courses and exams.</li>
-    <li>View analytics and reports.</li>
+    <li>Sign up as an admin, teacher, student, or parent based on your role.</li>
+    <li>Create, schedule, and manage courses, exams, and assignments.</li>
+    <li>Monitor student progress and generate performance reports.</li>
+    <li>Engage parents with updates and insights on their child’s progress.</li>
 </ul>
 
 ## Contributing
 
-<p>Contributions are welcome! Please fork the repo and submit a pull request with your improvements.</p>
+<p>Contributions are encouraged! If you'd like to help improve SchoolNest, follow these steps:</p>
 
 <ol>
-    <li>Fork the project.</li>
-    <li>Create your feature branch:
+    <li>Fork the repository.</li>
+    <li>Create a feature branch:
         <pre><code>git checkout -b feature/YourFeature</code></pre>
     </li>
     <li>Commit your changes:
@@ -74,13 +76,15 @@ cd skool-ease</code></pre>
     <li>Push to the branch:
         <pre><code>git push origin feature/YourFeature</code></pre>
     </li>
-    <li>Open a pull request.</li>
+    <li>Open a pull request and describe the changes you've made.</li>
 </ol>
 
 ## License
 
-<p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
+<p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for more information.</p>
 
 ## Contact
 
-<p>For questions or feedback, please reach out to <a href="mailto:lancerf235@gmail.com">lancerf235@gmail.com</a>.</p>
+<p>If you have any questions, suggestions, or feedback, feel free to reach out via email at <a href="mailto:lancerf235@gmail.com">lancerf235@gmail.com</a>.</p>
+
+---
